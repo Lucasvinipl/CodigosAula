@@ -40,7 +40,7 @@ int main()
 
     printf("\n---Listando os endereços de memoria---\n");
     printf("pNome...: %p\n", pNome);
-    printf("pIdade...: %p\n", pIdade);
+    printf("pIdade...: %d\n", *pIdade);
     printf("pTel...: %p\n\n", pTel);
 
     return  0;
